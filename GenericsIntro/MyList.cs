@@ -22,7 +22,17 @@ namespace GenericsIntro
             }
             items[items.Length - 1] = item;//burada add'le gelen yeni elemanı boş kısma ekliyoruz(getiriyoruz)
             //length -1 toplam eleman sayısından 1 eksik yani index değeri
-
         }
+
+        public int Length
+        {
+            get { return items.Length; }
+        }
+
+        public T[] Items
+        {
+            get { return items; }
+        }
+
     }
 }
