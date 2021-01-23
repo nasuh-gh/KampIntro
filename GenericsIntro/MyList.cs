@@ -7,8 +7,8 @@ namespace GenericsIntro
     class MyList<T>
     {
         T[] items;
-        //Constructor-Class'ı new'lersen burası çalışıyor
-        public MyList()
+        
+        public MyList()//Constructor-Class'ı new'lersen burası çalışıyor
         {
             items = new T[0];
         }
